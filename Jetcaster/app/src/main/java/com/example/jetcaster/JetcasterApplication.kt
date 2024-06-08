@@ -30,6 +30,7 @@ class JetcasterApplication : Application(), ImageLoaderFactory {
     }
     // this is a comment line.
     //ssssssssssss
+    //ddddddd
     override fun newImageLoader(): ImageLoader {
         return ImageLoader.Builder(this)
             // Disable `Cache-Control` header support as some podcast images disable disk caching.
